@@ -1,0 +1,27 @@
+body {
+
+    font-family: 'Roboto Mono', monospace;
+    /* background-color: #efe2e4; */
+
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+#attack {
+    margin-bottom: 0px;
+
+}
+
+nav {
+    background-color: #e3f2fd;
+    margin-bottom: 1em;
+
+
+
+}
+
+.first {
+    margin-bottom: 4em;
+}
