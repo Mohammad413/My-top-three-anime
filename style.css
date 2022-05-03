@@ -1,4 +1,4 @@
-body {
+*/ body {
 
     font-family: 'Roboto Mono', monospace;
     /* background-color: #efe2e4; */
@@ -6,8 +6,23 @@ body {
 }
 
 div {
-    margin-bottom: 20px;
+    animation-duration: 1.5s;
+    animation-name: fadeIn;
+
 }
+
+@keyframes fadeIn {
+    from {
+        margin-left: 100%;
+        width: 100%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
 
 #attack {
     margin-bottom: 0px;
@@ -24,4 +39,15 @@ nav {
 
 .first {
     margin-bottom: 4em;
+}
+
+nav {
+    transition: 1s;
+}
+
+nav:hover {
+
+    background-color: rgb(155, 89, 218);
+
+
 }
